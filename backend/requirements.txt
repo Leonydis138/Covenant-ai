@@ -1,0 +1,151 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+starlette==0.35.1
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+databases==0.8.0
+
+# Caching & Message Queue
+redis[hiredis]==5.0.1
+celery[redis]==5.3.6
+kombu==5.3.5
+aioredis==2.0.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+cryptography==42.0.0
+pyjwt==2.8.0
+argon2-cffi==23.1.0
+
+# Monitoring, Logging & Tracing
+prometheus-client==0.19.0
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
+opentelemetry-instrumentation-fastapi==0.43b0
+opentelemetry-exporter-jaeger==1.21.0
+python-json-logger==2.0.7
+sentry-sdk[fastapi]==1.40.0
+structlog==24.1.0
+
+# AI/ML
+torch==2.2.0
+transformers==4.37.2
+numpy==1.26.3
+scikit-learn==1.4.0
+tensorflow==2.15.0
+xgboost==2.0.3
+lightgbm==4.3.0
+shap==0.44.1
+
+# Formal Verification & Reasoning
+z3-solver==4.12.5.0
+sympy==1.12
+networkx==3.2.1
+
+# Blockchain & Cryptography
+web3==6.15.1
+eth-account==0.11.0
+eth-utils==4.0.0
+ecdsa==0.18.0
+
+# HTTP Clients & WebSockets
+httpx==0.26.0
+websockets==12.0
+aiohttp==3.9.3
+requests==2.31.0
+
+# Data Validation & Serialization
+email-validator==2.1.0
+phonenumbers==8.13.28
+orjson==3.9.13
+msgpack==1.0.7
+python-multipart==0.0.6
+
+# GraphQL & gRPC
+strawberry-graphql[fastapi]==0.219.0
+grpcio==1.60.0
+grpcio-tools==1.60.0
+protobuf==4.25.2
+
+# Cloud Services
+boto3==1.34.34
+google-cloud-storage==2.14.0
+azure-storage-blob==12.19.0
+minio==7.2.3
+
+# Search & Analytics
+elasticsearch==8.12.0
+opensearch-py==2.4.2
+
+# Feature Flags & Config
+launchdarkly-server-sdk==9.2.0
+python-decouple==3.8
+
+# Rate Limiting & Caching
+slowapi==0.1.9
+aiocache==0.12.2
+cachetools==5.3.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+faker==22.6.0
+factory-boy==3.3.0
+locust==2.20.1
+
+# Code Quality & Linting
+black==24.1.1
+ruff==0.1.15
+mypy==1.8.0
+bandit==1.7.6
+safety==3.0.1
+pre-commit==3.6.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.6
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==8.2.3
+pytz==2024.1
+python-dateutil==2.8.2
+arrow==1.3.0
+click==8.1.7
+rich==13.7.0
+typer==0.9.0
+
+# Image Processing (for proof generation)
+pillow==10.2.0
+qrcode==7.4.2
+
+# PDF Generation
+reportlab==4.0.9
+weasyprint==60.2
+
+# Email
+fastapi-mail==1.4.1
+jinja2==3.1.3
+
+# Async Task Queue
+dramatiq[redis]==1.15.0
+apscheduler==3.10.4
+
+# Vector Database (for embeddings)
+pinecone-client==3.0.2
+chromadb==0.4.22
+
+# Additional Security
+pyotp==2.9.0
+qrcode==7.4.2

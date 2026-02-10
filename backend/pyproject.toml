@@ -1,0 +1,41 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "covenant-enterprise"
+version = "4.0.0"
+description = "Ultimate Constitutional AI Enforcement Platform"
+authors = ["COVENANT.AI Team"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.109.0"}
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.25"}
+alembic = "^1.13.1"
+asyncpg = "^0.29.0"
+redis = {extras = ["hiredis"], version = "^5.0.1"}
+celery = {extras = ["redis"], version = "^5.3.6"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt", "argon2"], version = "^1.7.4"}
+prometheus-client = "^0.19.0"
+opentelemetry-api = "^1.22.0"
+opentelemetry-sdk = "^1.22.0"
+opentelemetry-instrumentation-fastapi = "^0.43b0"
+torch = "^2.2.0"
+transformers = "^4.37.2"
+scikit-learn = "^1.4.0"
+z3-solver = "^4.12.5"
+web3 = "^6.15.1"
+httpx = "^0.26.0"
+orjson = "^3.9.13"
+strawberry-graphql = {extras = ["fastapi"], version = "^0.219.0"}
+grpcio = "^1.60.0"
+sentry-sdk = {extras = ["fastapi"], version = "^1.40.0"}
+structlog = "^24.1.0"
+tenacity = "^8.2.3"
+polars = "^0.20.0"
+pyarrow = "^15.0.0"
